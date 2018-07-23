@@ -20,6 +20,7 @@ def nyc_pigeon_organizer(data)
     att_data.each do |var, var_data|
       for i in 0..var_data.length-1
         binding.pry
+        if data[att][var]
         new_hash[var_data[i]][att] << var.to_s 
       end
     end

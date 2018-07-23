@@ -5,7 +5,12 @@ def nyc_pigeon_organizer(data)
   
   data.each do |att, att_data|
     att_data.each do |var, var_data|
-      binding.pry
+      for i in 0..var_data.length-1
+        new_hash[var_data[i]] = {}
+      end
     end
   end
+  
+  
+  
 end

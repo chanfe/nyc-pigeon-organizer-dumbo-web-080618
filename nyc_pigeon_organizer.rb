@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
       for i in 0..var_data.length-1
         new_hash[var_data[i]] = att_hash
       end
+      binding.pry
     end
   end
   
